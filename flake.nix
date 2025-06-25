@@ -7,7 +7,7 @@
       url = "github:nix-darwin/nix-darwin/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nixvim.url = "github:dc-tec/nixvim";
+    nixvim.url = "github:MKMukeshKannan/mk-nixvim";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";

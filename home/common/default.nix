@@ -1,8 +1,10 @@
 { inputs, ... }:
 {
   imports = [
-    ./fish.nix
-    ./wezterm.nix
+    ./direnv.nix
+    ./tmux.nix
+    # ./wezterm.nix
+    ./zsh.nix
   ];
 
   home.packages = [
