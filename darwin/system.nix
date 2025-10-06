@@ -28,6 +28,7 @@
     };
   };
 
+  system.primaryUser = "mukeshkannan";
   system.defaults = {
     dock.autohide = true;
     dock.largesize = 20;

@@ -30,6 +30,7 @@
     yabai -m rule --add app="^RUIN.*$" manage=off
     yabai -m rule --add app="^ruin-opengl-example$" manage=off
     yabai -m rule --add title="^RUIN.*$" manage=off
+    yabai -m rule --add app="^qutebrowser$" title!="^$" role="AXWindow" subrole="AXDialog" manage=on
 
     echo "yabai configuration loaded . . . 🎯 "
   '';

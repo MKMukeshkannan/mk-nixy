@@ -12,6 +12,7 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nil_ls.url = "github:oxalica/nil";
   };
 
   outputs =
@@ -21,6 +22,7 @@
       nix-darwin,
       home-manager,
       nixvim,
+      nil_ls,
       ...
     }@inputs:
     {

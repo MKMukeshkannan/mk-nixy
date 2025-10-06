@@ -45,6 +45,11 @@
       set-option -g status-right '#[bold,fg=white,bg=#fe0500]#(echo " ")#(date "+%H:%M ")#[fg=white]'
        
       set-option -g status-interval 1
+
+       set-option -g allow-passthrough on
+       set -g allow-passthrough all
+       set -ga update-environment TERM
+       set -ga update-environment TERM_PROGRAM
        
       # set-option -g window-status-format '#{window_index}#(echo " ")#{window_name}#{window_flags}'
       set-option -g window-status-current-format '#[bold,fg=white,bg=#fe0500]#(echo " ")#{window_index}#(echo " ")#{window_name}#(echo " ")'
